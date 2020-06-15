@@ -1,4 +1,16 @@
 def getMixedTypeDict(N, list_B, StartDate):
+"""
+Parameters
+----------
+N: How many rows of data (integer)
+TODO: write a test
+
+list_B: The strings we wish to populate the columns with (str)
+
+StartDate: The first date for the time series column. Default "1/1/2009"
+
+Return dataframe
+"""    
 # see https://github.com/pandas-dev/pandas/blob/4407d9f43e93923422833d95793b09a967047205/pandas/_testing.py
 #    index = pd.Index(["a", "b", "c", "d", "e", 'f'])
     l = [i for i in range(N)]
